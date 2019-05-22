@@ -593,18 +593,19 @@ Figure 9: Example Variance in Distribution after Differential Privacy by the Add
 
 # Appendix C -- Useful Resources
 
-**Table 6: List of CanDIG Project Resources**
+**Table 6: Getting Started with Genomics resources**
 
-  Resource Title                 | Link to Resource
-  ------------------------------- |----------------------------------------------------------------------------
-  CanDIG Website                 | <https://www.distributedgenomics.ca>
-  CanDIG GitHub                  | <https://github.com/CanDIG>
-  CanDIG Slack                   | <https://candig.slack.com/>
-  CanDIG Google Group            | <https://groups.google.com/forum/#!forum/candig>
-  CanDIG Twitter                 | <https://twitter.com/distribgenomics>
-  CanDIG 2017 HPCS Presentation  | <https://candig.github.io/img/docs/CanDIG-HPCS2017.pdf>
-  CanDIG Google Drive             |<https://drive.google.com/drive/folders/1jmgsyb7N3DwhCcFgWUqkecRbdsgPtQAS>
- 
+Some resources, in rough order of less to more detailed:
+
+  Resource Title                            | Link to Resource
+  ----------------------------------------- |----------------------------------------------------------------------------
+  Booklet from Illumina                     | https://www.illumina.com/Documents/products/Illumina_Sequencing_Introduction.pdf
+  Aaron Quinlan's Applied Genomics Course   | https://github.com/quinlan-lab/applied-computational-genomics
+  Coursera course (there are several other excellent ones) | https://www.coursera.org/lecture/introduction-genomics/next-generation-sequencing-61rlC
+  CBW: Bioinformatics on HTS data           |  https://bioinformatics.ca/workshops/2018-informatics-on-high-throughput-sequencing-data/
+  CBW: Bioinformatics of Genomic Medicine   | https://bioinformatics.ca/workshops/2018-bioinformatics-of-genomic-medicine/
+  CBW: Bioinformatics for Cancer Genomics   | https://bioinformatics.ca/workshops/2018-bioinformatics-for-cancer-genomics/
+  
 # Appendix D -- Keycloak
 
 Keycloak is, amongst other things, an OpenID Connect Identity Provider
