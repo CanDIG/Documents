@@ -605,6 +605,7 @@ Some resources, in rough order of less to more detailed:
   CBW: Bioinformatics on HTS data           |  https://bioinformatics.ca/workshops/2018-informatics-on-high-throughput-sequencing-data/
   CBW: Bioinformatics of Genomic Medicine   | https://bioinformatics.ca/workshops/2018-bioinformatics-of-genomic-medicine/
   CBW: Bioinformatics for Cancer Genomics   | https://bioinformatics.ca/workshops/2018-bioinformatics-for-cancer-genomics/
+  Griffith Lab: Precision Medicine Bioinformatics | https://pmbio.org/course
   
 # Appendix D -- Keycloak
 
