@@ -98,6 +98,10 @@ data sets, and provide new projects with a framework of data access
 policies.  Our aim is to both support and drive more widespread 
 availability of heath data for analysis in a responsible way.
 
+We are becoming involved with:
+* The [Marathon of Hope Network (MoHN)](https://www.marathonofhopecancercentres.ca/launch), a new project for which the TF4CN was a pilot, and
+* The [Digital Health and Discovery Platform (DHDP)](https://www.canada.ca/en/innovation-science-economic-development/news/2019/05/minister-bains-announces-investment-to-accelerate-medical-breakthroughs-that-will-enable-truly-personalized-health-care.html), a project involving health AI company Imagia, MoHN, and other partners; this was announced in late may and at time of writing how we will be involved is still a little unclear.
+
 ### What Success Looks Like
 
 For CanDIG the project to be a success,
@@ -287,12 +291,14 @@ of the pilot for the CanDIG project.  CanDIG will provide federated access
 to metadata (clinical data about the patient) and well as providing access
 to project somatic variant data.
 
-#### TF4CN
+#### TF4CN/MoHN
 
 The TF4CN is a pilot project of comprehensive cancer care networks, where a small
 number of patients will be very deeply characterized (with whole genome sequencing,
 imaging, very deep phenotypic data, _etc_) and that data will be accessible in a
-federated way through CanDIG between centres.  TF4CN is also funded by TFRI.  
+federated way through CanDIG between centres.  TF4CN is also funded by TFRI.  In 2019/2020
+the TF4CN will be giving way to the full-fledged [MoHN](https://www.marathonofhopecancercentres.ca/launch)
+with significantly increased data volumes.
 
 ## CanDIG Status
 
