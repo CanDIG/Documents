@@ -36,6 +36,7 @@
 - [Appendix B -- CanDIG Project Technology Stack](#appendix-b----candig-project-technology-stack)
 - [Appendix C -- Useful Resources](#appendix-c----useful-resources)
 - [Appendix D -- Keycloak](#appendix-d----keycloak)
+- [Appendix E -- Technical and Data details](#apprendix-e----technical-and-data-details)
 
 # Project Communications
 
@@ -99,7 +100,7 @@ policies.  Our aim is to both support and drive more widespread
 availability of heath data for analysis in a responsible way.
 
 We are becoming involved with:
-* The [Marathon of Hope Network (MoHN)](https://www.marathonofhopecancercentres.ca/launch), a new project for which the TF4CN was a pilot, and
+* The [Marathon of Hope Network (MoHN)](https://www.marathonofhopecancercentres.ca/launch), a new project for which the TF4CN was a pilot (MoHN is funded 50% by TF and 50% by Canadian Government), and
 * The [Digital Health and Discovery Platform (DHDP)](https://www.canada.ca/en/innovation-science-economic-development/news/2019/05/minister-bains-announces-investment-to-accelerate-medical-breakthroughs-that-will-enable-truly-personalized-health-care.html), a project involving health AI company Imagia, MoHN, and other partners; this was announced in late may and at time of writing how we will be involved is still a little unclear.
 
 ### What Success Looks Like
@@ -110,6 +111,23 @@ For CanDIG the project to be a success,
 * Researchers will be able to combine cohorts and analyses across sites
 * New national health genomics projects will be able to get started faster, and get better results more quickly, because of the CanDIG infrastructure, and template documents to get started on privacy, ethics, and consents
 * New projects will be more likely to allow data sharing between projects because CanDIG makes it is easy, private, secure, and useful.
+
+
+Please note that the MoHN will have at least the following sites:
+- Quebec
+- Ontario
+- BC
+- Winnipeg
+- Halifax (Atlantic region)
+
+Also worth noting is that Winnipeg and Halifax will not have human 
+resources to support the technical stack, not even a programmer.
+Hence, infrastructure task needs to be done in a way that it is easy to 
+
+- deploy
+- monitor/observe
+- debug
+
 
 ### Technical Principles
 
@@ -553,32 +571,47 @@ Figure 9: Example Variance in Distribution after Differential Privacy by the Add
 
   Acronym       |Meaning
   ------------- |-------------------------------------------------------
-  PMH           |Princess Margaret Hospital
-  TGH           |Toronto General Hospital
-  PMGC          |Princess Margaret Genomics Centre
-  PMCRT         |Princess Margaret Cancer Research Tower
-  GA4GH         |Global Alliance for Genomics and Healthcare
-  HPC4Health    |High Performance Computing for Healthcare
-  CanDIG        |Canadian Distributed Infrastructure for Genomics
-  CFI           |Canadian Foundation for Innovation
-  RIS           |Research Information Systems
-  PROFYLE       |Precision Oncology for Young People
-  HSC           |Hospital for Sick Children (SickKids)
-  UMA           |User Managed Access
-  GSC / BCGSC   |Canada's Michael Smith Genome Science Centre, BC
-  MUGQIC        |McGill University and Genome Québec Innovation Centre
+  AAI           |Authentication and Authorization Infrastructure
+  Beacon        |“Beacons” provide discovery services for genomic data in ELIXIR and the Beacon network, using the Beacon technology developed for the Global Alliance for Genomics and Health (GA4GH). https://beacon-network.org/; http://beacon-project.io/
   C3G           |Canadian Centre for Computational Genomics
+  CAF           |Canadian Access Federation https://www.canarie.ca/identity/caf/ CANARIE’s Canadian Access Federation (CAF) is the umbrella organization for two identity and access management services: eduroam and Federated Identity Management (FIM).
+  CANARIE       |https://www.canarie.ca/
+  CanDIG        |Canadian Distributed Infrastructure for Genomics
   CCM           |Centre for Computational Medicine at SickKids
-  VM            |Virtual Machine
+  CFI           |Canadian Foundation for Innovation
+  CGP           |Centre for Genomic Policy @ McGill - http://www.genomicsandpolicy.org
+  CHORD         |https://www.distributedgenomics.ca/releases/candig_chord_genomics_data_management.html
+  CINECA        |https://www.cineca-project.eu
+  DAC           |Data Access Committee
+  DURI          |Data Use and Researcher Identity (GA4GH Working Group)
+  GA4GH         |Global Alliance for Genomics and Healthcare
+  GENIE         |Genomics Evidence Neoplasia Information Exchange
+  GGB           |Genetics and Genome Biology (CCM is under GGB @ SK) http://www.sickkids.ca/Research/Genetics-and-genome-biology/
+  GSC / BCGSC   |Canada's Michael Smith Genome Science Centre, BC
   HPC           |High Performance Computing
   HPCS          |High Productivity Computing Systems
+  HPC4Health    |High Performance Computing for Healthcare
+  HPF           |SickKids’ High Performace (Computing) Facility - https://ccm.sickkids.ca/?page_id=61
+  HSC           |Hospital for Sick Children (SickKids)
+  HTS           |High Throughput Sequencing
   IOPS          |Input/output Operations per Second
   LDAP          |Lightweight Directory Access Protocol
-  GENIE         |Genomics Evidence Neoplasia Information Exchange
-  HTS           |High Throughput Sequencing
+  MUGQIC        |McGill University and Genome Québec Innovation Centre
   NGS           |Next Generation Sequencing
-  WGS / WES     |Whole Genome Sequencing, Whole Exome Sequencing
+  OICR          |Ontario Institute for Cancer Research - https://oicr.on.ca
+  PMCRT         |Princess Margaret Cancer Research Tower
+  PMCC          |Princess Margaret Cancer Centre, part of UHN - https://www.uhn.ca/OurHospitals/PrincessMargaret
+  PMH           |Princess Margaret Hospital
+  PMGC          |Princess Margaret Genomics Centre
+  PROFYLE       |Precision Oncology for Young People - https://www.terryfox.org/media-releases/tfprofyle/
+  RIS           |Research Information Systems
+  TF4CN/MoHN    |The Terry Fox Canadian Comprehensive Cancer Centres Network (TF4CN), a two-year pilot project that brings together investigators from Vancouver’s BC Cancer and Toronto’s Princess Margaret Cancer Centre, has reached these milestones in just over a year—making researchers hopeful about the potential benefit the network could have on patients across the nation.
+  TGH           |Toronto General Hospital
+  TWH           |Toronto Women’s Hospital
+  UMA           |User Managed Access
+  VM            |Virtual Machine
   WES           |Workflow Execution Service
+  WGS / WES     |Whole Genome Sequencing, Whole Exome Sequencing
 
 
 # Appendix B -- CanDIG Project Technology Stack
@@ -648,3 +681,52 @@ as it was the name of the author of this document.
 ![Figure 7](Figures/figure5.png "Figure 5")
 
 **Figure 7: Keycloak OIDC JSON**
+
+
+# Appendix E -- Technical and Data details
+
+## Basic common details
+- Current CanDIG platform version is V1 and we are currently working on V2.
+- CanDIG platform will host Projects which may be spread across participating Sites.
+- Sharing can happen only within a specific project, via the CanDIG platform.
+    - For example, you cannot query data for project A and B at the same time.
+    - These are two separate projects and if you are participating in both projects you need to ask for those separately.
+    - A project example right now is PROFYLE.
+- Each project has datasets and each dataset has data types (like variants etc.).
+
+## CanDIG Version 1 (V1)
+- V1 is a monolith architecture (for app part). See details in the sections above.
+- The follow components are being used at the time of this writing.
+    - API gateway - Tyk
+    - Auth - Keycloak
+    - Main application - Python Flask application
+- CanDIG V1 can handle ~3000 patients’ datasets easily (as of August 19, 2019).
+
+## User authentication, authorization and data sensitivity
+- On each CanDIG server, there is a separate list of authorized users i.e. users that are allowed to see the data for the project.
+- DAC allows or disallows access of an individual for a project.
+    - There are two types of DACs — Project DAC and Local DAC.
+    - Project DAC is usually distributed among the CanDIG sites. The list of users who are authorized are shared among all of these DAC members.
+    - Local DAC is local to a site and project. This is in the future pipeline of CanDIG.
+- Each project also has a Leading committee.
+- When DAC gives permission to a user to see data, it gives them a number (from here on referred to as `user-number`).
+- Each data field in each project also has a number (from here on referred to as `field-number`).
+- For a user to be able to see a data field, their user-number has to be greater than or equal to the field-number. This is only the current implementation and may change in the future.
+    - Current numbers are from 0 to 4.
+    - DACs can decide their own numbers.
+    - Numbers can differ from project to project.
+
+## Features before March 2020
+According to Zoltan, V1 is almost feature complete, except that CHORD wants to see 
+- Discoverable datasets
+    - This is also aligned with GA4GH.
+    - Given a project, find the type of data and its availability easily.
+    - Also, maybe discoverable sites?
+- Containerization
+    - Being done by Pierre-Olivier at the time of this writing.
+
+## CanDIG Version 2 (V2)
+- Will likely be a microservice architecture.
+- Microserver artchitecture poses new problems in this form of architecture.
+    - e.g. Discovery of the datasets.
+    - Metadata associated with a dataset, e.g. reference genome aligned against. This needs to be consistent with the rest of the sites and data types.
