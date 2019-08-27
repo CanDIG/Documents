@@ -36,6 +36,7 @@
 - [Appendix B -- CanDIG Project Technology Stack](#appendix-b----candig-project-technology-stack)
 - [Appendix C -- Useful Resources](#appendix-c----useful-resources)
 - [Appendix D -- Keycloak](#appendix-d----keycloak)
+- [Appendix E -- Technical and Data details](#apprendix-e----technical-and-data-details)
 
 # Project Communications
 
@@ -99,7 +100,7 @@ policies.  Our aim is to both support and drive more widespread
 availability of heath data for analysis in a responsible way.
 
 We are becoming involved with:
-* The [Marathon of Hope Network (MoHN)](https://www.marathonofhopecancercentres.ca/launch), a new project for which the TF4CN was a pilot, and
+* The [Marathon of Hope Network (MoHN)](https://www.marathonofhopecancercentres.ca/launch), a new project for which the TF4CN was a pilot (MoHN is funded 50% by TF and 50% by Canadian Government), and
 * The [Digital Health and Discovery Platform (DHDP)](https://www.canada.ca/en/innovation-science-economic-development/news/2019/05/minister-bains-announces-investment-to-accelerate-medical-breakthroughs-that-will-enable-truly-personalized-health-care.html), a project involving health AI company Imagia, MoHN, and other partners; this was announced in late may and at time of writing how we will be involved is still a little unclear.
 
 ### What Success Looks Like
@@ -110,6 +111,23 @@ For CanDIG the project to be a success,
 * Researchers will be able to combine cohorts and analyses across sites
 * New national health genomics projects will be able to get started faster, and get better results more quickly, because of the CanDIG infrastructure, and template documents to get started on privacy, ethics, and consents
 * New projects will be more likely to allow data sharing between projects because CanDIG makes it is easy, private, secure, and useful.
+
+
+Please note that the MoHN will have at least the following sites:
+- Quebec
+- Ontario
+- BC
+- Winnipeg
+- Halifax (Atlantic region)
+
+Also worth noting is that Winnipeg and Halifax will not have human 
+resources to support the technical stack, not even a programmer.
+Hence, infrastructure task needs to be done in a way that it is easy to 
+
+- deploy
+- monitor/observe
+- debug
+
 
 ### Technical Principles
 
@@ -663,3 +681,52 @@ as it was the name of the author of this document.
 ![Figure 7](Figures/figure5.png "Figure 5")
 
 **Figure 7: Keycloak OIDC JSON**
+
+
+# Appendix E -- Technical and Data details
+
+## Basic common details
+- Current CanDIG platform version is V1 and we are currently working on V2.
+- CanDIG platform will host Projects which may be spread across participating Sites.
+- Sharing can happen only within a specific project, via the CanDIG platform.
+    - For example, you cannot query data for project A and B at the same time.
+    - These are two separate projects and if you are participating in both projects you need to ask for those separately.
+    - A project example right now is PROFYLE.
+- Each project has datasets and each dataset has data types (like variants etc.).
+
+## CanDIG Version 1 (V1)
+- V1 is a monolith architecture (for app part). See details in the sections above.
+- The follow components are being used at the time of this writing.
+    - API gateway - Tyk
+    - Auth - Keycloak
+    - Main application - Python Flask application
+- CanDIG V1 can handle ~3000 patients’ datasets easily (as of August 19, 2019).
+
+## User authentication, authorization and data sensitivity
+- On each CanDIG server, there is a separate list of authorized users i.e. users that are allowed to see the data for the project.
+- DAC allows or disallows access of an individual for a project.
+    - There are two types of DACs — Project DAC and Local DAC.
+    - Project DAC is usually distributed among the CanDIG sites. The list of users who are authorized are shared among all of these DAC members.
+    - Local DAC is local to a site and project. This is in the future pipeline of CanDIG.
+- Each project also has a Leading committee.
+- When DAC gives permission to a user to see data, it gives them a number (from here on referred to as `user-number`).
+- Each data field in each project also has a number (from here on referred to as `field-number`).
+- For a user to be able to see a data field, their user-number has to be greater than or equal to the field-number. This is only the current implementation and may change in the future.
+    - Current numbers are from 0 to 4.
+    - DACs can decide their own numbers.
+    - Numbers can differ from project to project.
+
+## Features before March 2020
+According to Zoltan, V1 is almost feature complete, except that CHORD wants to see 
+- Discoverable datasets
+    - This is also aligned with GA4GH.
+    - Given a project, find the type of data and its availability easily.
+    - Also, maybe discoverable sites?
+- Containerization
+    - Being done by Pierre-Olivier at the time of this writing.
+
+## CanDIG Version 2 (V2)
+- Will likely be a microservice architecture.
+- Microserver artchitecture poses new problems in this form of architecture.
+    - e.g. Discovery of the datasets.
+    - Metadata associated with a dataset, e.g. reference genome aligned against. This needs to be consistent with the rest of the sites and data types.
