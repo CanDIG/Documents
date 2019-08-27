@@ -553,32 +553,47 @@ Figure 9: Example Variance in Distribution after Differential Privacy by the Add
 
   Acronym       |Meaning
   ------------- |-------------------------------------------------------
-  PMH           |Princess Margaret Hospital
-  TGH           |Toronto General Hospital
-  PMGC          |Princess Margaret Genomics Centre
-  PMCRT         |Princess Margaret Cancer Research Tower
-  GA4GH         |Global Alliance for Genomics and Healthcare
-  HPC4Health    |High Performance Computing for Healthcare
-  CanDIG        |Canadian Distributed Infrastructure for Genomics
-  CFI           |Canadian Foundation for Innovation
-  RIS           |Research Information Systems
-  PROFYLE       |Precision Oncology for Young People
-  HSC           |Hospital for Sick Children (SickKids)
-  UMA           |User Managed Access
-  GSC / BCGSC   |Canada's Michael Smith Genome Science Centre, BC
-  MUGQIC        |McGill University and Genome Québec Innovation Centre
+  AAI           |Authentication and Authorization Infrastructure
+  Beacon        |“Beacons” provide discovery services for genomic data in ELIXIR and the Beacon network, using the Beacon technology developed for the Global Alliance for Genomics and Health (GA4GH). https://beacon-network.org/; http://beacon-project.io/
   C3G           |Canadian Centre for Computational Genomics
+  CAF           |Canadian Access Federation https://www.canarie.ca/identity/caf/ CANARIE’s Canadian Access Federation (CAF) is the umbrella organization for two identity and access management services: eduroam and Federated Identity Management (FIM).
+  CANARIE       |https://www.canarie.ca/
+  CanDIG        |Canadian Distributed Infrastructure for Genomics
   CCM           |Centre for Computational Medicine at SickKids
-  VM            |Virtual Machine
+  CFI           |Canadian Foundation for Innovation
+  CGP           |Centre for Genomic Policy @ McGill - http://www.genomicsandpolicy.org
+  CHORD         |https://www.distributedgenomics.ca/releases/candig_chord_genomics_data_management.html
+  CINECA        |https://www.cineca-project.eu
+  DAC           |Data Access Committee
+  DURI          |Data Use and Researcher Identity (GA4GH Working Group)
+  GA4GH         |Global Alliance for Genomics and Healthcare
+  GENIE         |Genomics Evidence Neoplasia Information Exchange
+  GGB           |Genetics and Genome Biology (CCM is under GGB @ SK) http://www.sickkids.ca/Research/Genetics-and-genome-biology/
+  GSC / BCGSC   |Canada's Michael Smith Genome Science Centre, BC
   HPC           |High Performance Computing
   HPCS          |High Productivity Computing Systems
+  HPC4Health    |High Performance Computing for Healthcare
+  HPF           |SickKids’ High Performace (Computing) Facility - https://ccm.sickkids.ca/?page_id=61
+  HSC           |Hospital for Sick Children (SickKids)
+  HTS           |High Throughput Sequencing
   IOPS          |Input/output Operations per Second
   LDAP          |Lightweight Directory Access Protocol
-  GENIE         |Genomics Evidence Neoplasia Information Exchange
-  HTS           |High Throughput Sequencing
+  MUGQIC        |McGill University and Genome Québec Innovation Centre
   NGS           |Next Generation Sequencing
-  WGS / WES     |Whole Genome Sequencing, Whole Exome Sequencing
+  OICR          |Ontario Institute for Cancer Research - https://oicr.on.ca
+  PMCRT         |Princess Margaret Cancer Research Tower
+  PMCC          |Princess Margaret Cancer Centre, part of UHN - https://www.uhn.ca/OurHospitals/PrincessMargaret
+  PMH           |Princess Margaret Hospital
+  PMGC          |Princess Margaret Genomics Centre
+  PROFYLE       |Precision Oncology for Young People - https://www.terryfox.org/media-releases/tfprofyle/
+  RIS           |Research Information Systems
+  TF4CN/MoHN    |The Terry Fox Canadian Comprehensive Cancer Centres Network (TF4CN), a two-year pilot project that brings together investigators from Vancouver’s BC Cancer and Toronto’s Princess Margaret Cancer Centre, has reached these milestones in just over a year—making researchers hopeful about the potential benefit the network could have on patients across the nation.
+  TGH           |Toronto General Hospital
+  TWH           |Toronto Women’s Hospital
+  UMA           |User Managed Access
+  VM            |Virtual Machine
   WES           |Workflow Execution Service
+  WGS / WES     |Whole Genome Sequencing, Whole Exome Sequencing
 
 
 # Appendix B -- CanDIG Project Technology Stack
