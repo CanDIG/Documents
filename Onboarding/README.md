@@ -579,6 +579,7 @@ Figure 9: Example Variance in Distribution after Differential Privacy by the Add
   CanDIG        |Canadian Distributed Infrastructure for Genomics
   CCM           |Centre for Computational Medicine at SickKids
   CFI           |Canadian Foundation for Innovation
+  CGO		|ClinicaGeno - https://www.clinicageno.com
   CGP           |Centre for Genomic Policy @ McGill - http://www.genomicsandpolicy.org
   CHORD         |https://www.distributedgenomics.ca/releases/candig_chord_genomics_data_management.html
   CINECA        |https://www.cineca-project.eu
