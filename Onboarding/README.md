@@ -54,7 +54,7 @@ Make sure you have access to the following
 
 **Table 1: Team Communication Methods**
 
-And make sure you send your site lead a (preferably square) head shot so we can add you to the [team page](https://www.distributedgenomics.ca/team.html)!
+And make sure to add yourself and a square head shot so we can add you to the [team page](https://www.distributedgenomics.ca/team.html)!
 
 ## Meetings
 
