@@ -13,7 +13,7 @@ Fasciliates the communication between different sites running CanDIG. What else?
 Databases. What do they store? Absolutely no idea. Maybe this is what pump goes to?
 
 ## How they interact:
-![Architecture Diagram](https://github.com/CanDIG/PublicDocuments/tree/master/Onboarding/Figures/ArchitectureDiagram.png)
+![Architecture Diagram](Figures/ArchitectureDiagram.png)
 
 Tyk Gateway maps endpoints from tyk to CanDIG server so that the changing of endpoints is easy and requires no work on the servers side.  
 All authentication is done through Keycloak for SSO and security. If authentication is required, gateway redirects to keycloak via a virtual endpoint to a JS script.  
