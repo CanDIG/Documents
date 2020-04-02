@@ -1,5 +1,25 @@
 # Code of Conduct
 
+## TODO
+
+- Add a safe email address for formal complaints.
+- Add a phone for informal complaints.
+- Have *everyone* in the team review this document.
+
+## Participants' Responsibilities Overview
+
+* Adhere to CanDIG’s mission and
+  [Framework for Responsible Sharing of Genomic and Health Related Data].
+* Act to uphold the interests and reputation of the CanDIG.
+* Promote standards, policies, and products that contribute to scientific
+  and technological advancement that improves human health, e.g., by
+  offering competent opinions and services, and considering diverse
+  viewpoints.
+* Treat all colleagues with respect, courtesy, and professionalism.
+* Commit to the highest standards of objectivity and transparency concerning
+  credentials, qualifications, and conflicts of interests.
+* Respect CanDIG policies as established on the CanDIG website.
+
 ## Our Pledge
 
 In the interest of fostering an open and welcoming environment, we as
@@ -45,8 +65,14 @@ members of the project's leadership.
 
 ## Attribution
 
-This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4,
-available at [http://contributor-covenant.org/version/1/4][version]
+This Code of Conduct is adapted from 
+* the [Contributor Covenant][homepage], version 1.4, available at 
+  [http://contributor-covenant.org/version/1/4][version]
+* [GA4GH Code of Conduct] and by extension
+  [Framework for Responsible Sharing of Genomic and Health Related Data]
+
 
 [homepage]: http://contributor-covenant.org
 [version]: http://contributor-covenant.org/version/1/4/
+[Framework for Responsible Sharing of Genomic and Health Related Data]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4685158/
+[GA4GH Code of Conduct]: https://www.ga4gh.org/wp-content/uploads/GA4GH-Standards-for-Professional-Conduct_22-Jan-2018.pdf
