@@ -5,10 +5,12 @@
 When contributing to this repository, please first discuss the change you wish to 
 make via [issue] with the owners of this repository before making a change.
 
-TODO: Add issue template in Github.
-TODO: Add [MAINTAINERS.md](MAINTAINERS.md)
-TODO: Add [GOVERNANCE.md](GOVERNANCE.md)
-TODO: Add code of conduct violator reporting email to EMAIL-COC.
+
+## TODO
+- Add issue template in Github.
+- Add [MAINTAINERS.md](MAINTAINERS.md)
+- Add [GOVERNANCE.md](GOVERNANCE.md)
+- Add code of conduct violator reporting email to EMAIL-COC.
 
 ## Getting Help
 
