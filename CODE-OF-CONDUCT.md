@@ -2,6 +2,7 @@
 
 ## TODO
 
+- Define maintainers
 - Add a safe email address for formal complaints.
 - Add a phone for informal complaints.
 - Have *everyone* in the team review this document.
