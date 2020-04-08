@@ -16,9 +16,22 @@ If a tool, its usage must be define. If needd, subheadings for each platform/os.
 
 ## Contributing
 
-Please see [CONTRIBUTING.md]
+Please see [CONTRIBUTING.md] (for general recommendation for contributing changes)
 
-If the project is too complex, then create a separate [BUILD.md] and link to that.
+## Working with this repo
+
+If not too complex, list steps here other add a file [BUILD.md] with instructions.
+Must include 
+
+### Clone and checkout
+
+### Setup Development Environment
+
+### Building
+
+### Testing
+
+### Performance and Benchmarks
 
 ## Code of Conduct
 
