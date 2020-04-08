@@ -1,6 +1,6 @@
 # PROJECT NAME
 
-<BADGES GO HERE>
+ BADGES GO HERE
 
 This project is a way to show the documentation.
 
