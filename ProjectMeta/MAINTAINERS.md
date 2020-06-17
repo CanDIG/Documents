@@ -1,4 +1,4 @@
 This project is maintained by
 
-- Firstname Lastname email@email.com 
+- Firstname Lastname email@email.com (pronouns: they/them)
 - ...
