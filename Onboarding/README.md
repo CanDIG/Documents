@@ -223,6 +223,48 @@ research, where uptime requirements are not as stringent as for
 mission-critical enterprise applications.  Uptime of 99.5% (roughly
 48 hours of downtime/year) would be perfectly acceptable.
 
+### Benefits of CanDIG
+
+To sequencing or other data collecting projects:
+
+* Ease of starting up a national multi-site data project:
+* Users can make federated queries and do simple federated analysis through the portals (true of any federation)
+* Data remains safe and secure locally (true of any federation)
+* Emerging data standards and policies that can be used as a template (provided by the governance of the platform)
+* The main genomic sequencing institutions across the country are already signed on (provided by the governance of the platform)
+* Ease of operating a national multi-site data project:
+    - Single point of contact for authorization
+    - “Single pane view” of project data resources across the country (watch the number of sequenced samples rise…)
+* No administration of separate user account for researchers (distributed nature of the federation/distributed authentication process)
+* No burden of adding users already accessing other projects
+* Users can be classified into groups with different access levels, not just local and external users.
+* Reassurance of data security:
+    - No central infrastructure as a security target (distributed nature of the federation)
+    - Strong authentication of users - validated by their institution, credentials automatically revoked if researcher leaves an institution (distributed authentication process)
+* Very clear audit logs (API driven approach, distribute authentication/authorization process)
+* Differential privacy available for allowing aggregated, privacy-preserving access to data
+* Special needs met: Project under active development - feedback into needed features, etc (provided by the governance of the platform)
+
+To researchers:
+
+* Access to more data: More data across the country available
+* Discovery tools becoming available for finding data not yet accessible by you but could be requested
+* Ease of access
+* “Single pane view” of all of the data
+* No additional credentials needs - use institutional login
+* API driven: not just limited to the portals, will eventually tie into Jupyter, RStudio/Bioconductor
+
+To hosting institutions:
+
+* Very clear authorization and responsibilities model
+* Local authorization of data, informed by national services like DAC lists (distributed authentication/authorization process)
+* Every request is from an identifiable authorized user (distributed authentication/authorization process)
+* Will make use of GA4GH Security Infrastructure policy - clear responsibilities of sites to platform (governance model)
+* Easy to revoke access to any project and from any user at any time locally (local authorization)
+* Relatively easy to stand up a CanDIG service
+* Documented, lightweight services
+* Make use of existing authentication, data infrastructure
+
 ## The CanDIG Ecosystem
 
 ### Entities Involved In CanDIG
