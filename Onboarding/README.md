@@ -300,7 +300,8 @@ CanDIG the project is involved with several other organziations, groups, grants,
 The Global Alliance for Genomics and Health (GA4GH: https://www.ga4gh.org) is an international standards-setting
 organization for responsible genomic data sharing for human health which aims to support interoperability.  Setting standards
 in such a rapidly moving field means convening projects doing related work so that they can share common problems and best
-practices, and build standards (for APIs, data models, and best practices) from there.
+practices, and build standards (for APIs, data models, and best practices) from there.  [Here](https://youtu.be/n1ybRML9YzQ) is
+a short video describing how some current GA4GH standards and APIs fit together.
 
 GA4GH connsists of several _workstreams_:
 * **DURI** - Data Use and Research Identity; building common standards for:
