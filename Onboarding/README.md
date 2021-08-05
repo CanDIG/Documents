@@ -327,7 +327,7 @@ some peer projects we are most likely to interact with include:
 
 #### CHORD
 
-The CHORD (Canadian Health 'Omics Repository, Distributed) is a 18 month research software engingeering contract awarded to
+The CHORD (Canadian Health 'Omics Repository, Distributed) is a 18 month research software engineering contract awarded to
 CanDIG starting in Oct 2018 to make the CanDIG software stack robust enough to be able to act as a genomics data repository for
 small research labs.  The grant proposal can be read here https://github.com/CanDIG/canarie_rdm_2018 . 
 
@@ -435,7 +435,7 @@ have CanDIG representation:
 All data access for the CanDIG project will be API based, including
 local queries. The advantages of choosing this approach are:
 
--   Abstraction of back-end data stores; we have many sites which mat
+-   Abstraction of back-end data stores; we have many sites which may
     store data differently, and if the variants (for instance) are
     stored in the databases, there may be no files to access
 
